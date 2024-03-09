@@ -1,0 +1,19 @@
+{
+  "name": "gablib-lxer",
+  "version": "0.1.0-beta",
+  "description": "Consume LXer RSS feed and post to Gab group",
+  "main": "index.js",
+  "bin": {
+    "lxerbot": "index.js"
+  },
+  "scripts": {},
+  "type": "module",
+  "keywords": [],
+  "author": "TechSavage",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^9.4.3",
+    "gablib": "github:TechSavage2/gablib",
+    "html-entities-decoder": "^1.0.4"
+  }
+}
